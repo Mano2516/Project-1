@@ -1,0 +1,113 @@
+body {
+    background-image: url("../img/snowy-mountain-peak-starry-galaxy-majesty-generative-ai.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent {
+    margin-top: 120px;
+    background-color: rgb(133, 95, 95);
+    width: 450px;
+    height: 500px;
+    background-color: #eeeeeeb3;
+    border: 2px solid rgb(77, 36, 36);
+    border-radius: 30px;
+}
+.parent h2 {
+    margin-left: 175px;
+    font-family :'Times New Roman', Times, serif;
+    border-bottom: 5px;
+    border-right: 0px ;
+    border-top: 0px;
+    border-top: 0px;
+    border-left: 0px ;
+    border-color:  rgb(77, 36, 36);;
+    border-style: solid;
+    width: fit-content;
+    font-family: cursive;
+}
+
+.user-name label {
+    margin-right: 100px;
+    margin-left: 35px;
+    font-family: cursive;
+    }
+    .user-name input {
+        background-color: #eeeeeeb3;
+        width: 170px;
+        margin-left: 30px;
+        height: 30px;
+        border-color: transparent;
+        border-radius: 12px;
+        transition: all .5s;
+    }
+    .user-name input:hover {
+        width: 180px;
+        height: 35px;
+        border: solid 2px rgb(77, 36, 36);
+    }
+    .email label{
+        margin-left: 190px;
+        font-family: cursive;
+    }
+    .email input {
+        background-color: #eeeeeeb3;
+        margin-left: 60px; 
+        width: 70%; 
+        height: 30px;
+        border-radius: 12px;
+        border-color: transparent;
+        transition: all .5s;
+    }
+    .email input:hover {
+        height: 35px;
+        width: 75%;
+        border: solid 2px rgb(77, 36, 36);
+    }
+.pass label{
+    margin-left: 190px;
+    margin-top: 25px;
+    font-family: cursive;
+}
+.pass input {
+    background-color: #eeeeeeb3;
+    margin-left: 60px;
+    width: 70%;
+    height: 30px;
+    border-radius: 12px;
+    border-color: transparent;
+    transition: all .5s;
+    
+}
+.pass input:hover {
+    height: 35px;
+    width: 75%;
+    border: solid 2px rgb(77, 36, 36);
+}
+
+
+
+button {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 160px;
+    width: 120px;
+    height: 35px;
+    cursor: pointer ;
+    border-radius: 5px;
+    background-color: #eeeeeeb3;
+    border-color: transparent;
+    font-family: cursive;
+    transition: all .5s ;
+}
+button:hover {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border: solid 2px rgb(77, 36, 36);
+}
+
+
+
